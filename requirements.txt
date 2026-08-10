@@ -1,0 +1,11 @@
+# Knihovny potřebné pro tento projekt.
+# Nainstaluješ je příkazem: pip install -r requirements.txt
+
+requests
+beautifulsoup4
+anthropic==0.28.0
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+python-dotenv
+schedule
