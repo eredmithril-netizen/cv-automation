@@ -1,0 +1,20 @@
+# --- Python cache soubory ---
+# __pycache__ je složka, kterou Python automaticky vytváří, aby si
+# "zapamatoval" už zkompilovaný kód a příště nemusel vše číst znovu.
+# Nemá smysl ji ukládat do gitu, protože se generuje automaticky.
+__pycache__/
+*.pyc
+
+# --- Tajné údaje ---
+# .env obsahuje API klíče a další citlivé údaje (viz .env.example).
+# Nikdy by se neměl nahrát do veřejného (ani soukromého) repozitáře.
+.env
+
+# --- Google OAuth2 údaje ---
+# credentials.json = tajný soubor stažený z Google Cloud Console,
+# obsahuje identitu tvé aplikace vůči Googlu.
+credentials.json
+
+# token.pickle = uložené přihlašovací tokeny po prvním přihlášení,
+# aby se uživatel nemusel přihlašovat pokaždé znovu. Obsahuje citlivá data.
+token.pickle
